@@ -10,7 +10,10 @@ margin:0;}
 	border:none;
 	-webkit-box-shadow: none;
   -moz-box-shadow: none;
-  box-shadow: none;}
+  box-shadow: none;
+}
+
+  .nav > li { float:none; display:block; }
 
 .bio {
 	width:15%;
@@ -20,12 +23,15 @@ margin:0;}
 
 .navigation a {text-decoration:none;
 padding:3px;
-color: #939292;}
+color: #939292;
+line-height:0.5 !important;
+}
 
 
 .navigation ul
 {list-style-type:none;
 text-transform: uppercase;
+
 font-size:10px;
 display:block;
 font-family: 'Open Sans', sans-serif;}
@@ -34,7 +40,7 @@ a#home {color: #16B162;
 font-size:12px;
 margin-bottom:30px;}
 
-a.title {color: #515151;
+a.title {color: #515151!important;
 font-size:12px;}
 
 .image-slider {
